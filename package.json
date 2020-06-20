@@ -2,7 +2,10 @@
   "name": "base64-converter",
   "version": "1.0.0",
   "description": "A library that allows bidirectional conversion of strings and base64.",
-  "main": "index.js",
+  "main": "dist/converter.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "repository": "https://github.com/ony3000/base64-converter.git",
   "author": "Hyeonjong <nianelo4@gmail.com>",
   "license": "MIT",
