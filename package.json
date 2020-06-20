@@ -8,6 +8,13 @@
     "build": "webpack --mode production"
   },
   "repository": "https://github.com/ony3000/base64-converter.git",
+  "keywords": [
+    "javascript",
+    "base64",
+    "encode",
+    "decode",
+    "converter"
+  ],
   "author": "Hyeonjong <nianelo4@gmail.com>",
   "license": "MIT",
   "devDependencies": {
