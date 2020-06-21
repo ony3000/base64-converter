@@ -28,7 +28,9 @@ console.log(converter.base64Decode('SGVsbG8gd29ybGQh')); // 'Hello world!'
 
 ### without CDN
 ```javascript
-const { base64Encode, base64Decode } = require('@ony3000/base64-converter');
+// You can import it in one of the following ways:
+/* 1 */ const { base64Encode, base64Decode } = require('@ony3000/base64-converter');
+/* 2 */ import { base64Encode, base64Decode } from '@ony3000/base64-converter';
 
 console.log(base64Encode('Hello world!')); // 'SGVsbG8gd29ybGQh'
 console.log(base64Decode('SGVsbG8gd29ybGQh')); // 'Hello world!'
