@@ -1,5 +1,5 @@
 {
-  "name": "base64-converter",
+  "name": "@ony3000/base64-converter",
   "version": "1.0.0",
   "description": "A library that allows bidirectional conversion of strings and base64.",
   "main": "dist/converter.js",
