@@ -6,7 +6,7 @@ A library that allows bidirectional conversion of strings and base64.
 ## Installation
 ### CDN
 ```html
-<script src="https://unpkg.com/@ony3000/base64-converter@1.0.0/dist/converter.js"></script>
+<script src="https://unpkg.com/@ony3000/base64-converter@1.0.1/dist/converter.js"></script>
 ```
 
 ### NPM
