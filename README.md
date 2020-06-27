@@ -1,6 +1,8 @@
 # base64-converter
 A library that allows bidirectional conversion of strings and base64.
 
+**Note:** Actually, this would be a bit more useful in traditional web development. If you're developing in a [Node.js](https://nodejs.org) environment, it's no different than implementing it yourself.
+
 ## Installation
 ### CDN
 ```html
