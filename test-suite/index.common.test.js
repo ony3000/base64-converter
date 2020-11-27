@@ -1,5 +1,6 @@
-const converter = require('./index');
-const { base64Encode, base64Decode } = require('./index');
+const modulePath = '../src/index';
+const converter = require(modulePath);
+const { base64Encode, base64Decode } = require(modulePath);
 
 const plainText = 'Hello world!';
 const base64Text = 'SGVsbG8gd29ybGQh';

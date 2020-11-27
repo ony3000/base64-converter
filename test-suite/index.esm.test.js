@@ -1,5 +1,4 @@
-import converter from './index';
-import { base64Encode, base64Decode } from './index';
+import converter, { base64Encode, base64Decode } from '../src/index';
 
 const plainText = 'Hello world!';
 const base64Text = 'SGVsbG8gd29ybGQh';
