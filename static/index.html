@@ -4,16 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Base64 Converter</title>
-    <script src="converter.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   </head>
   <body>
-    <textarea id="input" rows="10" cols="50" placeholder="Enter the text you want to convert here."></textarea>
-    <div>
-      <button id="encode-button" type="button">Encode</button>
-      <button id="decode-button" type="button">Decode</button>
-      <button id="clear-button" type="button">Clear</button>
+    <div class="container">
+      <div class="tabs is-boxed">
+        <ul>
+          <li id="encode-tab">
+            <a href="#encode">
+              <span>Encode</span>
+            </a>
+          </li>
+
+          <li id="decode-tab">
+            <a href="#decode">
+              <span>Decode</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="field">
+        <label class="label">Input</label>
+        <div class="control">
+          <textarea id="input" class="textarea"></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Output</label>
+        <div class="control">
+          <textarea id="output" class="textarea" readonly></textarea>
+        </div>
+      </div>
     </div>
-    <textarea id="output" rows="10" cols="50" placeholder="The encode (or decode) results appear here." readonly></textarea>
+
+    <script src="converter.js"></script>
     <script src="./demo.js"></script>
   </body>
 </html>
