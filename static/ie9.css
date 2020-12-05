@@ -1,0 +1,16 @@
+.tabs ul {
+  height: 42px;
+}
+
+.tabs ul:after {
+  clear: both;
+}
+
+.tabs li {
+  float: left;
+}
+
+.tabs a {
+  display: inline-block;
+  line-height: 24px;
+}
