@@ -133,6 +133,12 @@ window.addEventListener('load', function () {
 
     $input.value = '';
     $output.value = '';
+
+    $input.removeClass('is-danger');
+
+    if ($invalidInputHelper.closest('div.field')) {
+      $input.closest('div.field').removeChild($invalidInputHelper);
+    }
   }
 
   window.addEventListener('hashchange', initialize);
