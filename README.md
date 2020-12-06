@@ -1,12 +1,17 @@
 # base64-converter
-A library that allows bidirectional conversion of strings and base64.
+[![npm (scoped)](https://img.shields.io/npm/v/@ony3000/base64-converter)](https://www.npmjs.com/package/@ony3000/base64-converter)
+[![GitHub license](https://img.shields.io/github/license/ony3000/base64-converter)](https://github.com/ony3000/base64-converter/blob/master/LICENSE)
+[![package hits](https://data.jsdelivr.com/v1/package/npm/@ony3000/base64-converter/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@ony3000/base64-converter)<br>
+A library that allows bidirectional conversion of strings and base64. Available in both browser and [Node.js](https://nodejs.org).
 
-**Note:** Actually, this would be a bit more useful in traditional web development. If you're developing in a [Node.js](https://nodejs.org) environment, it's no different than implementing it yourself.
+**Note:** Actually, this would be a bit more useful in traditional web development. If you're developing in a Node.js environment, it's no different than implementing it yourself.
+
+**Note 2:** What I recently discovered is that you can do base64 conversion using [`btoa()`](https://developer.mozilla.org/ko/docs/Web/API/WindowOrWorkerGlobalScope/btoa) and [`atob()`](https://developer.mozilla.org/ko/docs/Web/API/WindowOrWorkerGlobalScope/atob) in the browser. If you're not using Node.js on your server, this may be sufficient. :joy:
 
 ## Installation
 ### CDN
 ```html
-<script src="https://unpkg.com/@ony3000/base64-converter@1.0.1/dist/converter.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ony3000/base64-converter@1.0.1/dist/converter.js"></script>
 ```
 
 ### NPM
