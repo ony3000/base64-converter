@@ -11,7 +11,7 @@ A library that allows bidirectional conversion of strings and base64. Available 
 ## Installation
 ### CDN
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@ony3000/base64-converter@1.0.1/dist/converter.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ony3000/base64-converter@1.0.2/dist/converter.js"></script>
 ```
 
 ### NPM
