@@ -74,6 +74,11 @@ window.addEventListener('load', function () {
   $invalidInputHelper.addClass('help', 'is-danger');
   $invalidInputHelper.textContent = 'The input text does not seem to be in base64 format.';
 
+  // reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Escaping
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+  }
+
   function convertInput(inputText) {
     var hash = location.hash || '#encode';
 
@@ -84,7 +89,7 @@ window.addEventListener('load', function () {
     }
     else if (hash === '#decode') {
       var outputText = converter.base64Decode(inputText);
-      var pattern = new RegExp(inputText + '=*$');
+      var pattern = new RegExp(escapeRegExp(inputText) + '=*$');
 
       if (converter.base64Encode(outputText).match(pattern)) {
         $input.removeClass('is-danger');
