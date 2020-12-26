@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
+    "types": "tsc --declaration --emitDeclarationOnly",
     "test": "jest"
   },
   "repository": "https://github.com/ony3000/base64-converter.git",
