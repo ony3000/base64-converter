@@ -1,6 +1,6 @@
 {
   "name": "@ony3000/base64-converter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A library that allows bidirectional conversion of strings and base64. Available in both browser and Node.js.",
   "main": "dist/converter.js",
   "types": "types/index.d.ts",
