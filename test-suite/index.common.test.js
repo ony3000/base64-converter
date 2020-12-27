@@ -1,4 +1,4 @@
-const modulePath = '../src/index';
+const modulePath = '../dist/converter';
 const converter = require(modulePath);
 const { base64Encode, base64Decode } = require(modulePath);
 
