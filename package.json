@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "A library that allows bidirectional conversion of strings and base64. Available in both browser and Node.js.",
   "main": "dist/converter.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "start": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
