@@ -6,7 +6,7 @@ A library that allows bidirectional conversion of strings and base64. Available 
 
 **Note:** Actually, this would be a bit more useful in traditional web development. If you're developing in a Node.js environment, it's no different than implementing it yourself.
 
-**Note 2:** What I recently discovered is that you can do base64 conversion using [`btoa()`](https://developer.mozilla.org/ko/docs/Web/API/WindowOrWorkerGlobalScope/btoa) and [`atob()`](https://developer.mozilla.org/ko/docs/Web/API/WindowOrWorkerGlobalScope/atob) in the browser. If you're not using Node.js on your server, this may be sufficient. :joy:
+**Note 2:** What I recently discovered is that you can do base64 conversion using [`btoa()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa) and [`atob()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/atob) in the browser. If you're not using Node.js on your server, this may be sufficient. :joy:
 
 ## Installation
 ### CDN
