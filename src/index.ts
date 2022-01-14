@@ -1,6 +1,4 @@
-interface ConvertingFunction {
-  (input: string): string;
-}
+type ConvertingFunction = (input: string) => string;
 
 const base64Encode: ConvertingFunction = function (input: string): string {
   return Buffer.from(input, 'utf8').toString('base64');
