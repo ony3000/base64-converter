@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## base64-converter
 
 You can use the [editor on GitHub](https://github.com/ony3000/base64-converter/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
