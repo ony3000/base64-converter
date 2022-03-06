@@ -1,37 +1,50 @@
-## base64-converter
+[![npm (scoped)](https://img.shields.io/npm/v/@ony3000/base64-converter)](https://www.npmjs.com/package/@ony3000/base64-converter)
+[![GitHub license](https://img.shields.io/github/license/ony3000/base64-converter)](https://github.com/ony3000/base64-converter/blob/master/LICENSE)
+[![package hits](https://data.jsdelivr.com/v1/package/npm/@ony3000/base64-converter/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@ony3000/base64-converter)
 
-You can use the [editor on GitHub](https://github.com/ony3000/base64-converter/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Installation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### CDN
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```html
+<script src="https://cdn.jsdelivr.net/npm/@ony3000/base64-converter@1.1.1/dist/converter.js"></script>
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### NPM
 
-### Jekyll Themes
+```sh
+npm install @ony3000/base64-converter
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ony3000/base64-converter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Yarn
 
-### Support or Contact
+```sh
+yarn add @ony3000/base64-converter
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Usage
+
+### with CDN
+
+```html
+<script>
+console.log(converter.base64Encode('Hello world!')); // 'SGVsbG8gd29ybGQh'
+console.log(converter.base64Decode('SGVsbG8gd29ybGQh')); // 'Hello world!'
+</script>
+```
+
+### without CDN
+
+```javascript
+// You can import it in one of the following ways:
+/* 1 */ const { base64Encode, base64Decode } = require('@ony3000/base64-converter');
+/* 2 */ import { base64Encode, base64Decode } from '@ony3000/base64-converter';
+
+console.log(base64Encode('Hello world!')); // 'SGVsbG8gd29ybGQh'
+console.log(base64Decode('SGVsbG8gd29ybGQh')); // 'Hello world!'
+```
+
+## Browser compatibility
+
+* Internet Explorer 9+
+* Most modern browsers except Internet Explorer
