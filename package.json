@@ -20,6 +20,9 @@
   ],
   "author": "Hyeonjong <nianelo4@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",

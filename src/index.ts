@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 type ConvertingFunction = (input: string) => string;
 
 const base64Encode: ConvertingFunction = function (input) {
