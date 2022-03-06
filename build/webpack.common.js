@@ -29,8 +29,4 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
-  node: {
-    Buffer: false,
-    process: false,
-  },
 };
