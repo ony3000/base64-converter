@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/npm/@ony3000/base64-converter@1.1.1/dist/converter.js"></script>
+
 [![npm (scoped)](https://img.shields.io/npm/v/@ony3000/base64-converter)](https://www.npmjs.com/package/@ony3000/base64-converter)
 [![GitHub license](https://img.shields.io/github/license/ony3000/base64-converter)](https://github.com/ony3000/base64-converter/blob/master/LICENSE)
 [![package hits](https://data.jsdelivr.com/v1/package/npm/@ony3000/base64-converter/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@ony3000/base64-converter)
