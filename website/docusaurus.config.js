@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'base64-converter',
+  tagline: 'A library that allows bidirectional conversion of strings and base64.\nAvailable in both browser and Node.js.',
   url: 'https://ony3000.github.io',
   baseUrl: '/base64-converter/',
   onBrokenLinks: 'throw',
