@@ -40,9 +40,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'base64-converter',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Docusaurus Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,7 +54,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ony3000/base64-converter',
             label: 'GitHub',
             position: 'right',
           },
