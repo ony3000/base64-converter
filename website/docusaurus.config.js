@@ -54,6 +54,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            to: '/playground',
+            label: 'Playground',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/ony3000/base64-converter',
             label: 'GitHub',
             position: 'right',
@@ -78,6 +83,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Playground',
+                to: '/playground',
               },
               {
                 label: 'GitHub',
