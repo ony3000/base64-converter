@@ -14,5 +14,5 @@
 .textarea:active,
 .textarea:focus {
   border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 0.125em rgba(46, 133, 85, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(var(--ifm-rgb-color-primary), 0.25);
 }
