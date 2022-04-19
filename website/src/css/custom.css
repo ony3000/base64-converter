@@ -16,6 +16,7 @@
   --ifm-code-font-size: 95%;
 
   --ifm-rgb-color-primary: 46, 133, 85;
+  --ifm-rgb-color-danger: 250, 56, 62;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,8 +28,10 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-danger: #f56672;
 
   --ifm-rgb-color-primary: 37, 194, 160;
+  --ifm-rgb-color-danger: 245, 102, 114;
 }
 
 .docusaurus-highlight-code-line {
