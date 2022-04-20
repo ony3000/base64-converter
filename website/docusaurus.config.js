@@ -25,10 +25,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/ony3000/base64-converter',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/ony3000/base64-converter',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -52,7 +48,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: '/playground',
             label: 'Playground',
@@ -80,10 +75,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'Playground',
                 to: '/playground',
