@@ -23,7 +23,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/ony3000/base64-converter',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -49,6 +48,12 @@ const config = {
             label: 'Tutorial',
           },
           {
+            type: 'doc',
+            docId: 'getting-started/with-package-manager',
+            position: 'left',
+            label: 'Docs',
+          },
+          {
             to: '/playground',
             label: 'Playground',
             position: 'left',
@@ -69,6 +74,10 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Getting Started',
+                to: '/docs/getting-started/with-package-manager',
               },
             ],
           },
