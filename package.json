@@ -4,6 +4,10 @@
   "description": "A library that allows bidirectional conversion of strings and base64. Available in both browser and Node.js.",
   "main": "dist/converter.js",
   "types": "types/index.d.ts",
+  "files": [
+    "dist/",
+    "types/"
+  ],
   "scripts": {
     "start": "webpack-dev-server --config build/webpack.dev.js",
     "build": "webpack --config build/webpack.prod.js",
@@ -11,6 +15,7 @@
     "test": "jest"
   },
   "repository": "https://github.com/ony3000/base64-converter.git",
+  "homepage": "https://ony3000.github.io/base64-converter/",
   "keywords": [
     "javascript",
     "base64",
