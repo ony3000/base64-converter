@@ -6,11 +6,16 @@ name: Testing before npm publish
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    paths:
+      - '.github/workflows/testing.yml'
+      - 'src/**'
+      - 'test-suite/**'
+      - 'yarn.lock'
 
 jobs:
-  test:
+  testing:
+    name: Testing before npm publish
+
     runs-on: ubuntu-latest
 
     strategy:
