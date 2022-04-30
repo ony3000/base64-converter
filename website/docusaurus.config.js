@@ -43,12 +43,6 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'doc',
             docId: 'getting-started/with-package-manager',
             position: 'left',
             label: 'Docs',
@@ -71,10 +65,6 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
               {
                 label: 'Getting Started',
                 to: '/docs/getting-started/with-package-manager',
