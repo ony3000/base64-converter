@@ -1,0 +1,27 @@
+.textarea {
+  border-radius: 4px;
+  padding: calc(0.75em - 1px);
+  width: 100%;
+  min-height: 8em;
+  max-height: 40em;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  vertical-align: top;
+  resize: vertical;
+}
+
+.textarea:active,
+.textarea:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 0.125em rgba(var(--ifm-rgb-color-primary), 0.25);
+}
+
+.textarea.hasError {
+  border-color: var(--ifm-color-danger);
+}
+
+.textarea.hasError:active,
+.textarea.hasError:focus {
+  box-shadow: 0 0 0 0.125em rgba(var(--ifm-rgb-color-danger), 0.25);
+}
