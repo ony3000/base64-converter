@@ -20,8 +20,8 @@ export default function DemoConverter(): JSX.Element {
   const [outputValue, setOutputValue] = useState('');
   const inputRef = useRef(null);
 
-  const keyUpHandler: KeyboardEventHandler = (event) => {
-    const { value: inputValue } = event.target as HTMLTextAreaElement;
+  const keyUpHandler: KeyboardEventHandler<HTMLTextAreaElement> = (event) => {
+    const { value: inputValue } = event.currentTarget;
 
     if (activeTab === 'encode') {
       const convertedValue = converter.base64Encode(inputValue);
