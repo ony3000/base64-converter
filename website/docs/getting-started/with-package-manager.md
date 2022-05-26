@@ -1,5 +1,5 @@
 ---
-title: With Package Manager
+sidebar_label: With Package Manager
 sidebar_position: 1
 ---
 

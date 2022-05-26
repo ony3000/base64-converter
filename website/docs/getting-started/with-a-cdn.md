@@ -1,5 +1,5 @@
 ---
-title: With a CDN
+sidebar_label: With a CDN
 sidebar_position: 2
 ---
 
