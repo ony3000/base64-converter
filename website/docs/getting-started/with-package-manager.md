@@ -7,16 +7,18 @@ sidebar_position: 1
 
 ## Installation
 
-The base64-converter package lives in [npm](https://www.npmjs.com/package/@ony3000/base64-converter). To install the latest version, run the following command:
+The base64-converter package lives in [npm](https://www.npmjs.com/package/@ony3000/base64-converter). To install the latest version, run one of the following commands:
 
 ```bash
 npm install @ony3000/base64-converter
 ```
 
-Or if you're using [yarn](https://classic.yarnpkg.com/en/):
-
 ```bash
 yarn add @ony3000/base64-converter
+```
+
+```bash
+pnpm install @ony3000/base64-converter
 ```
 
 ## How to use
